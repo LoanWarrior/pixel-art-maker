@@ -1,0 +1,37 @@
+.grid-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+  align-items: center;
+}
+.cell {
+  border-style: solid;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+
+}
+#red{
+  width: 50px;
+  background-color: red;
+}
+#blue{
+  width: 50px;
+  background-color: blue;
+}
+#pink{
+  width: 50px;
+  background-color: pink;
+}
+#orange{
+  width: 50px;
+  background-color: orange;
+}
+#purple{
+  width: 50px;
+  background-color: purple;
+}
+#black{
+  width: 50px;
+  background-color: black;
+}
