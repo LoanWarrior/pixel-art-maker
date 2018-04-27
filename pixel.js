@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
 
-  let pallette = document.getElementsByClassName("pallette")[0];
+  let shit = document.getElementsByClassName("pallette")[0];
 
 
-  pallette.addEventListener("click", function(e){
+  shit.addEventListener("click", function(e){
     console.log(e.target.id);
-    color = e.target.id
-  })
+    color = e.target.id;
+  });
 });
